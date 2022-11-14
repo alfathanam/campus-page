@@ -1,0 +1,202 @@
+/* *reset CSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* * My CSS */
+body{
+    font-family: monospace;
+    background: url(1.jpg);
+    background-size: cover;
+}
+
+hr{
+    margin-bottom: 30px;
+    border: 2px solid silver;
+}
+
+a{
+    text-decoration: none;
+}
+p{
+    margin-bottom: 20px;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: arial;
+}
+th{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Helvetica, sans-serif;
+    font-weight: 700px;
+    font-size: 20px;
+}
+.menu {
+    width:100%;
+    
+    /* border: 1px solid black; */
+    background-color: burlywood;
+    margin-bottom: 15px;
+}
+
+
+
+.menu  .list a{
+    color: darkslategray;
+    font-size: 20px;
+    padding: 10px;
+    /* margin-left: 20px; */
+    
+}
+
+
+.list {
+    display: inline-block;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.list:hover{
+    background-color: bisque;
+    transition: .4s ease-in-out;
+
+}
+
+img {
+    width: 100%;
+    height: min-content;
+}
+
+.card{
+    padding: 20px;
+    border: 1px solid darkgrey;
+    margin: 20px;
+    padding: 20px;
+    background-color: lightblue;
+}
+
+.card-title{
+    font-weight: 400;
+    color: brown;
+    margin-bottom: 15px; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+
+
+.card-login{
+    /* width: 50%; */
+    padding: 20px;
+    margin: 20px;
+    padding: 20px;
+    background-color: skyblue;
+    border-radius: 15px;
+    /* text-align: center; */
+    /* border: 1px solid black; */
+}
+
+.form-group{
+    margin-bottom: 20px;
+
+}
+
+.form-group label{
+    display: block;
+    margin: 6px;
+   
+}
+
+.form-group .form{
+    height: 30px;
+    width: 100%;
+    padding: 8px;
+    outline: none;
+    border: 1px solid darkgrey;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+.form-group .form:focus{
+    border: 1px solid orange;
+
+
+}
+
+.button {
+    padding: 10px;
+    border: 1px solid darkgray;
+    color: white;
+    background-color: darkgreen;
+    border-radius: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .3s ease-in-out;
+}
+
+.button:hover{
+    background-color: limegreen;
+   
+}
+
+.wrapper{
+    width: 1200px;
+    margin: auto;
+    background-color: antiquewhite;
+}
+
+.container{
+   width: 40%;
+    margin: auto;
+    
+}
+
+.login-h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
